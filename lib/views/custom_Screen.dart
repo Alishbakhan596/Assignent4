@@ -8,40 +8,22 @@ class CustomScreenWithParams extends StatelessWidget {
   @override
   Widget build(BuildContext) {
     return Scaffold(
+      appBar: AppBar(
+        backgroundColor: Colors.deepPurple,
+      ),
+      backgroundColor: Colors.deepPurple,
       body: SingleChildScrollView(
         child: Column(children: [
           Container(
-            color: Colors.deepPurple,
-            height: 200,
-            width: 450,
             child: Image.asset("assets/images/typing.png"),
           ),
           Container(
-            color: Colors.deepPurple,
-            height: 450,
-            width: 450,
             child: Image.asset("assets/images/picture.png"),
           ),
-          Center(
-            child: Row(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                Container(
-                  color: Colors.deepPurple,
-                  height: 50,
-                  width: 450,
-                  child: Image.asset("assets/images/rec1.png"),
-                ),
-              ],
-            ),
-          ),
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Container(
-                color: Colors.deepPurple,
-                height: 50,
-                width: 450,
                 child: Image.asset("assets/images/rec1.png"),
               ),
             ],
@@ -50,9 +32,6 @@ class CustomScreenWithParams extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Container(
-                color: Colors.deepPurple,
-                height: 50,
-                width: 450,
                 child: Image.asset("assets/images/rec1.png"),
               ),
             ],
@@ -61,9 +40,14 @@ class CustomScreenWithParams extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Container(
-                color: Colors.deepPurple,
-                height: 50,
-                width: 450,
+                child: Image.asset("assets/images/rec1.png"),
+              ),
+            ],
+          ),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Container(
                 child: Image.asset("assets/images/abc.png"),
               ),
             ],
@@ -72,19 +56,17 @@ class CustomScreenWithParams extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Container(
-                color: Colors.deepPurple,
-                height: 50,
-                width: 450,
-                child: Column(children: [
-                  Text(
-                    "create a note",
-                    style: TextStyle(color: Colors.black),
-                  ),
-                ]),
-                //Image.asset("assets/images/abc.png"),
+                child: Column(
+                  children: [
+                    Text(
+                      "create a note",
+                      style: TextStyle(color: Colors.black, fontSize: 25),
+                    ),
+                  ],
+                ),
               ),
             ],
-          )
+          ),
         ]),
       ),
     );

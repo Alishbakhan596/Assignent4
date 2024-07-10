@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class DashboardScreen extends StatelessWidget {
-  const DashboardScreen({super.key});
+class AddScreen extends StatelessWidget {
+  const AddScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -11,18 +11,15 @@ class DashboardScreen extends StatelessWidget {
       ),
       body: Column(
         children: [
-          const Text(
-            "Dashboard Screen",
-            style: TextStyle(fontSize: 40),
+          const Text("Add Screen"),
+          ElevatedButton(
+            onPressed: () {},
+            child: const Text("Go To Splash Screen"),
           ),
           ElevatedButton(
             onPressed: () {},
-            child: const Text("Go to Contact Screen"),
+            child: const Text("Go To Home Screen"),
           ),
-          ElevatedButton(
-            onPressed: () {},
-            child: const Text("Go to Home Screen"),
-          )
         ],
       ),
     );

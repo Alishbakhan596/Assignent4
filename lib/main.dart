@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:projectflutter5/home_Screen.dart';
+import 'package:projectflutter5/views/home_Screen.dart';
+import 'package:projectflutter5/views/Second_screen.dart';
+import 'package:projectflutter5/views/Third_screen.dart';
 
 void main() {
   runApp(const MyApp());

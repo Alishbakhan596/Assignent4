@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:projectflutter5/views/Second_screen.dart';
 
 class ContactScreen extends StatelessWidget {
   const ContactScreen({super.key});
@@ -14,12 +15,12 @@ class ContactScreen extends StatelessWidget {
           const Text("Contact Screen"),
           ElevatedButton(
             onPressed: () {},
-            child: const Text("Go to Dashboard Screen"),
+            child: const Text("Go to Splash Screen"),
           ),
           ElevatedButton(
             onPressed: () {},
             child: const Text("Go to Home Screen"),
-          )
+          ),
         ],
       ),
     );

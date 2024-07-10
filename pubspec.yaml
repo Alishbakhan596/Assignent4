@@ -66,7 +66,9 @@ flutter:
     - assets/images/rec1.png
     - assets/images/rec1.png
     - assets/images/abc.png
-    # - assets/images/signal.png
+    - assets/images/profilepic.png
+    - assets/images/box.png
+
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

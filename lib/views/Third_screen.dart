@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:projectflutter5/custom_Screen.dart';
-import 'package:projectflutter5/dashboard.dart';
+import 'package:projectflutter5/views/selected_screen.dart';
+import 'package:projectflutter5/views/add_screen.dart';
 
-class HomeScreen extends StatelessWidget {
-  const HomeScreen({super.key});
+class ThirdScreen extends StatelessWidget {
+  const ThirdScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -20,15 +20,15 @@ class HomeScreen extends StatelessWidget {
                 context,
                 MaterialPageRoute(
                   builder: (context) =>
-                      CustomScreenWithParams(roundContainerText: "Alishba"),
+                      SelectedScreen(roundContainerText: "Alishba"),
                 ),
               );
             },
-            child: const Text("Go to Dashboard Screen"),
+            child: const Text("Go to Add Screen"),
           ),
           ElevatedButton(
             onPressed: () {},
-            child: const Text("Go to Contact Screen"),
+            child: const Text("Go to Add Screen"),
           ),
           ElevatedButton(
             onPressed: () {
